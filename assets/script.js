@@ -6,52 +6,52 @@ var task;
 $(document).ready(function() {
     //setting items to local storage
     
-    $('#9 .btn').click(function() {
+    $('.btn').click(function() {
         var timeBlock = $(this).parent().attr('id') 
         var task = $(this).siblings('.description').val()
         localStorage.setItem(timeBlock, task);
         console.log(timeBlock)
     })
-    $('#10 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#11 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#12 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#13 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#14 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#15 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#16 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
-    $('#17 .btn').click(function() {
-        var timeBlock = $(this).parent().attr('id') 
-        var task = $(this).siblings('.description').val()
-        localStorage.setItem(timeBlock, task);
-    })
+    // $('#10 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#11 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#12 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#13 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#14 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#15 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#16 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
+    // $('#17 .btn').click(function() {
+    //     var timeBlock = $(this).parent().attr('id') 
+    //     var task = $(this).siblings('.description').val()
+    //     localStorage.setItem(timeBlock, task);
+    // })
 
 
     //getting from local storage

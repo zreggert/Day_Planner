@@ -6,4 +6,5 @@ For this project I have build a day planner to where a user can store input for 
 
 ![snapshot of the day planner](./assets/05-third-party-apis-homework-demo.gif)
 
-
+This is a link to the deployed application:
+https://zreggert.github.io/Day_Planner/ 

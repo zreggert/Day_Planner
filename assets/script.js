@@ -25,12 +25,17 @@ $(document).ready(function() {
     // $('#17 .description').val(localStorage.getItem("17"));
 
     function getStoredTasks() {
-        var timeBlocks = document.querySelectorAll('.row');
-        timeBlocks.forEach(element => {
-            var hour = $(element).attr('id');
-            $('.description').val(localStorage.getItem(hour))
+        // Object.keys(localStorage).forEach((key) => {
+        //     $(key).val(localStorage.getItem(key))
+        //     console.log(localStorage.getItem(key));
+        //    });
+        var timeBlocks = $('.row').toArray();
+        $.each(timeBlocks, function() {
+            var hour = $(this).attr('id')
+            $(this).val(localStorage.getItem(hour));
         })
     }
+    getStoredTasks();
 
 
     //changing the colors of the time blocks over time
@@ -41,7 +46,7 @@ $(document).ready(function() {
             var hour = $(element).attr('id');
             var hourT = $(element).attr('data-hour');
             //console.log(hour);
-            console.log(hourT);
+            //console.log(hourT);
             if (hour > currentTime) {
                 $(hourT).addClass('future');
             } else if (hour < currentTime) {

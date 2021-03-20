@@ -32,7 +32,8 @@ $(document).ready(function() {
         var timeBlocks = $('.row').toArray();
         $.each(timeBlocks, function() {
             var hour = $(this).attr('id')
-            $(this).val(localStorage.getItem(hour));
+            //console.log(hour);
+            $('.description', this).prepend(localStorage.getItem(hour));
         })
     }
     getStoredTasks();

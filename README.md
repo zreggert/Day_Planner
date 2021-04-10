@@ -8,3 +8,5 @@ For this project I have build a day planner to where a user can store input for 
 
 This is a link to the deployed application:
 https://zreggert.github.io/Day_Planner/ 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
